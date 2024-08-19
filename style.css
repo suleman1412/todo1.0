@@ -1,0 +1,51 @@
+body {
+  font-family: 'Segoe UI';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0; /* Removes any default margin */
+  background-color: #7c7979;
+  color: black
+  
+}
+
+html {
+  height: 100%; /* Ensures that the html element also takes up the full height */
+}
+h1{
+  padding: 10px;
+}
+.TopBar{
+  display:flex;
+  flex-direction: column;
+  width: 800px;
+  gap: 5px
+}
+
+
+.todos{
+  background-color: #ecc3a2;
+  gap: 5px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  background-color: orange;
+  font-weight: bolder;
+}
+
+button:hover{
+  background-color: #ffffff;
+}
+
+#text-box{
+  height:40px;
+  
+}
+
+#deleteBtn{
+  margin: 20px;
+}
