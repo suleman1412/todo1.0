@@ -4,10 +4,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0; /* Removes any default margin */
-  background-color: #7c7979;
-  color: black
-  
+  padding:20px;  
 }
 
 html {
@@ -25,27 +22,61 @@ h1{
 
 
 .todos{
-  background-color: #ecc3a2;
+  background-color: #fbe2d5;
+  border-radius: 10px;
   gap: 5px;
   width: 800px;
   display: flex;
   justify-content: space-between;
 }
 
+
 button{
-  background-color: orange;
   font-weight: bolder;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
 button:hover{
-  background-color: #ffffff;
+  background-color: white;
 }
+
 
 #text-box{
   height:40px;
-  
+  border-radius: 10px;
+  font-size: 15px;
+  padding-left: 10px;
 }
 
-#deleteBtn{
+.additionalBtns{
   margin: 20px;
+}
+
+.todos h3{
+  padding-left: 10px;
+  flex: 1;
+  
+}  
+
+#add-btn{
+  background-color: orange;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+#add-btn:hover{
+  background-color: white;
+}
+#updateBtn{
+  background-color: skyblue;
+}
+#updateBtn:hover{
+  background-color: white;
+}
+#deleteBtn{
+  background-color: #ff8080;
+}
+#deleteBtn:hover{
+  background-color: white;
 }
